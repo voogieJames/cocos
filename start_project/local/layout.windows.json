@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 635,
+                "height": 688,
                 "type": "panel",
                 "width": 401
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 689,
+                "height": 636,
                 "type": "panel",
                 "width": 401
               }
@@ -91,15 +91,22 @@
         "type": "dock-h"
       },
       "panels": [
-        "hierarchy",
         "node-library",
         "console",
         "timeline",
         "inspector",
         "assets",
-        "scene"
+        "scene",
+        "hierarchy"
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "hierarchy": {
+      "x": 660,
+      "y": 294,
+      "width": 350,
+      "height": 474
+    }
+  }
 }
