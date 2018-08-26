@@ -19,10 +19,10 @@ cc.Class({
     },
 
     setJumpAction() {
-        const jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight))
+        const jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight))
             .easing(cc.easeCubicActionOut());
 
-        const jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight))
+        const jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight))
             .easing(cc.easeCubicActionIn());
         
         return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
