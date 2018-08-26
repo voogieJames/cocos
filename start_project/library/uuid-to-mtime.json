@@ -300,18 +300,18 @@
     "relativePath": "textures/star.png"
   },
   "d3bc8636-edb6-46de-b271-ac135e18f22f": {
-    "asset": 1535222482942,
-    "meta": 1535222482951,
+    "asset": 1535293135370,
+    "meta": 1535293135376,
     "relativePath": "game.fire"
   },
   "0a2a1f72-488d-4bad-9ead-334a221678a3": {
-    "asset": 1535220678069,
+    "asset": 1535220697325,
     "meta": 1535220678071,
     "relativePath": "scripts"
   },
   "055d9eda-4dfb-4f7c-9d69-f2a6e461e9db": {
-    "asset": 1535222542345,
-    "meta": 1535222545245,
+    "asset": 1535292923416,
+    "meta": 1535292925178,
     "relativePath": "scripts/Player.js"
   }
 }

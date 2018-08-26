@@ -493,7 +493,7 @@
     },
     "_enabled": true,
     "jumpHeight": 200,
-    "jumpDuration": 0.3,
+    "jumpDuration": 0.4,
     "maxMoveSpeed": 400,
     "accel": 350,
     "_id": "b98obrLEFFi5npQKPuQyCG"
