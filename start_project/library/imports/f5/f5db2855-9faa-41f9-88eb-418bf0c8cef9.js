@@ -36,6 +36,11 @@ cc.Class({
         player: {
             default: null,
             type: cc.Node
+        },
+        //  score display
+        scoreDisplay: {
+            default: null,
+            type: cc.Label
         }
     },
 
@@ -44,6 +49,7 @@ cc.Class({
     onLoad: function onLoad() {
         //  obtain the anchor point of ground level on the y axis
         this.groundY = this.ground.y + this.ground.height / 2;
+        this.score = 0;
         //  generate a new star
         this.spawnNewStar();
     },
@@ -67,6 +73,10 @@ cc.Class({
         randX = (Math.random() - 0.5) * 2 * maxX;
         //  return to the anchor point of the star
         return cc.v2(randX, randY);
+    },
+    gainPoint: function gainPoint() {
+        this.score += 1;
+        this.scoreDisplay.string = "score: " + this.score.toString();
     },
     start: function start() {}
 }

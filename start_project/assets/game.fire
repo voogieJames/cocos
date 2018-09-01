@@ -628,6 +628,9 @@
     "player": {
       "__id__": 9
     },
+    "scoreDisplay": {
+      "__id__": 13
+    },
     "_id": "5aQn3R0KNPm7omsXko49A9"
   }
 ]

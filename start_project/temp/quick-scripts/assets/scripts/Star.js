@@ -42,6 +42,8 @@ cc.Class({
     onPicked: function onPicked() {
         //  generate a new star when previous is collected
         this.game.spawnNewStar();
+        //  get that goddamed point
+        this.game.gainPoint();
         //  now destroy currect star object
         this.node.destroy();
     },
