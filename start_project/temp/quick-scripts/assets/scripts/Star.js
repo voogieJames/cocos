@@ -20,18 +20,42 @@ cc.Class({
     properties: {
         //  When the distance between the star and main character is less than this value, 
         //  points will be collected
-        pickRadius: 0
+        pickRadius: 3
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
 
-    start: function start() {}
-}
+    getPlayerDistance: function getPlayerDistance() {
+        //  get player position
+        if (this.node && this.game) {
+            var playerPos = this.game.player.getPosition();
+            var starPos = this.node.position;
+            if (starPos && playerPos) {
+                //  calculate the distance between the player and a star
+                var dist = starPos.sub(playerPos).mag();
+                return dist;
+            }
+        }
+    },
+    onPicked: function onPicked() {
+        //  generate a new star when previous is collected
+        this.game.spawnNewStar();
+        //  now destroy currect star object
+        this.node.destroy();
+    },
+    start: function start() {},
 
-// update (dt) {},
-);
+    //  on each frame check the distance and if it is lower than pickRadius, run collect function
+    update: function update(dt) {
+        if (this.getPlayerDistance() < this.pickRadius) {
+            this.onPicked();
+            debugger;
+            return;
+        }
+    }
+});
 
 cc._RF.pop();
         }

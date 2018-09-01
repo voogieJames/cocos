@@ -54,6 +54,8 @@ cc.Class({
         this.node.addChild(newStar);
         //  set a random position for the star
         newStar.setPosition(this.getNewStarPosition());
+        //  temporarily store game object in the star component
+        newStar.getComponent('Star').game = this;
     },
     getNewStarPosition: function getNewStarPosition() {
         var randX = 0;

@@ -13,7 +13,11 @@
       "id": "0a2a1f72-488d-4bad-9ead-334a221678a3"
     },
     {
-      "folded": true,
+      "folded": false,
+      "id": "64fd154e-1bd2-4a02-ad75-a620bdd07c16"
+    },
+    {
+      "folded": false,
       "id": "d6ff10bc-4d58-4d63-8af4-19151a90da2c"
     },
     {
@@ -39,10 +43,6 @@
     {
       "folded": true,
       "id": "c6b5fd13-6a7f-4187-8716-1189e5d13c27"
-    },
-    {
-      "folded": false,
-      "id": "64fd154e-1bd2-4a02-ad75-a620bdd07c16"
     }
   ]
 }
