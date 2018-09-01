@@ -24,8 +24,8 @@ cc.Class({
             type: cc.Prefab
         },
         //  the random scale of disappearing time for stars
-        maxStartDuration: 0,
-        minStartDuration: 0,
+        maxStarDuration: 0,
+        minStarDuration: 0,
         //  ground node for confirming the height of the generated star's position
         ground: {
             default: null,
@@ -41,6 +41,10 @@ cc.Class({
         scoreDisplay: {
             default: null,
             type: cc.Label
+        },
+        scoreAudio: {
+            default: null,
+            type: cc.AudioClip
         }
     },
 
@@ -49,9 +53,12 @@ cc.Class({
     onLoad: function onLoad() {
         //  obtain the anchor point of ground level on the y axis
         this.groundY = this.ground.y + this.ground.height / 2;
-        this.score = 0;
+        this.timer = 0;
+        this.startDuration = 0;
         //  generate a new star
         this.spawnNewStar();
+        //  init score
+        this.score = 0;
     },
     spawnNewStar: function spawnNewStar() {
         //  generate a new node in the scene with a present template
@@ -62,6 +69,9 @@ cc.Class({
         newStar.setPosition(this.getNewStarPosition());
         //  temporarily store game object in the star component
         newStar.getComponent('Star').game = this;
+        // reset timer, randomly choose a value according the scale of star duration
+        this.starDuration = this.minStarDuration + Math.random() * (this.maxStarDuration - this.minStarDuration);
+        this.timer = 0;
     },
     getNewStarPosition: function getNewStarPosition() {
         var randX = 0;
@@ -77,11 +87,23 @@ cc.Class({
     gainPoint: function gainPoint() {
         this.score += 1;
         this.scoreDisplay.string = "score: " + this.score.toString();
+        // play the scoring sound effect
+        cc.audioEngine.playEffect(this.scoreAudio, false);
     },
-    start: function start() {}
-}
-
-// update (dt) {},
-);
+    gameOver: function gameOver() {
+        this.player.stopAllActions(); // stop the jumping action of the player node
+        cc.director.loadScene('game');
+    },
+    start: function start() {},
+    update: function update(dt) {
+        // update timer for each frame, when a new star is not generated after exceeding duration
+        // invoke the logic of game failure
+        if (this.timer > this.starDuration) {
+            this.gameOver();
+            return;
+        }
+        this.timer += dt;
+    }
+});
 
 cc._RF.pop();

@@ -21,7 +21,11 @@ cc.Class({
         jumpHeight: 0,
         jumpDuration: 0,
         maxMoveSpeed: 0,
-        accel: 0
+        accel: 0,
+        jumpAudio: {
+            default: null,
+            type: cc.AudioClip
+        }
     },
 
     setJumpAction: function setJumpAction() {
@@ -29,7 +33,9 @@ cc.Class({
 
         var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
 
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
+        var soundCallback = cc.callFunc(this.playJumpSound, this);
+
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, soundCallback));
     },
     setInputControl: function setInputControl() {
         var self = this;
@@ -58,6 +64,10 @@ cc.Class({
                     break;
             }
         });
+    },
+    playJumpSound: function playJumpSound() {
+        //  play sound via the sound engine
+        cc.audioEngine.playEffect(this.jumpAudio, false);
     },
 
 

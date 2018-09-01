@@ -503,6 +503,9 @@
     "jumpDuration": 0.4,
     "maxMoveSpeed": 400,
     "accel": 100,
+    "jumpAudio": {
+      "__uuid__": "dc194f1a-c8a5-46ca-aaf9-f03b70974af5"
+    },
     "_id": "b98obrLEFFi5npQKPuQyCG"
   },
   {
@@ -621,8 +624,8 @@
     "starPrefab": {
       "__uuid__": "d01515a4-8e87-4091-aa7b-7022b0c74caf"
     },
-    "maxStartDuration": 5,
-    "minStartDuration": 3,
+    "maxStarDuration": 15,
+    "minStarDuration": 10,
     "ground": {
       "__id__": 7
     },
@@ -631,6 +634,9 @@
     },
     "scoreDisplay": {
       "__id__": 13
+    },
+    "scoreAudio": {
+      "__uuid__": "55d110b9-bab6-4d9d-9416-03e46904fa35"
     },
     "_id": "5aQn3R0KNPm7omsXko49A9"
   }

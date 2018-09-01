@@ -260,3 +260,671 @@
 2018-09-01T23:12:34.013Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
 2018-09-01T23:12:34.013Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
 2018-09-01T23:12:34.023Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-09-01T23:19:32.951Z - normal: Simulator: WORKAREA WIDTH 2495.00, HEIGHT 1396.00
+2018-09-01T23:19:32.953Z - normal: Simulator: FRAME SCALE = 1.00
+2018-09-01T23:19:33.350Z - normal: Simulator: 
+2018-09-01T23:19:33.351Z - normal: Simulator: {
+2018-09-01T23:19:33.352Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-09-01T23:19:33.352Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-09-01T23:19:33.352Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 660M OpenGL Engine
+2018-09-01T23:19:33.352Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-09-01T23:19:33.353Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-09-01T23:19:33.353Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-09-01T23:19:33.353Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-09-01T23:19:33.353Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-09-01T23:19:33.353Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-09-01T23:19:33.353Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-09-01T23:19:33.354Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-09-01T23:19:33.354Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-09-01T23:19:33.354Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.32.0 355.11.10.10.40.102
+2018-09-01T23:19:33.354Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-09-01T23:19:33.354Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-09-01T23:19:33.354Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-09-01T23:19:33.355Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-09-01T23:19:33.355Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-09-01T23:19:33.355Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-09-01T23:19:33.355Z - normal: Simulator: }
+2018-09-01T23:19:33.355Z - normal: Simulator: 
+2018-09-01T23:19:33.355Z - normal: Simulator: 
+2018-09-01T23:19:33.356Z - normal: Simulator: Project Config:
+2018-09-01T23:19:33.356Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-09-01T23:19:33.356Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-09-01T23:19:33.356Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-09-01T23:19:33.356Z - normal: Simulator:     frame size: 960 x 640
+2018-09-01T23:19:33.356Z - normal: Simulator:     frame scale: 1.00
+2018-09-01T23:19:33.357Z - normal: Simulator:     show console: NO
+2018-09-01T23:19:33.357Z - normal: Simulator:     write debug log: NO ()
+2018-09-01T23:19:33.357Z - normal: Simulator:     listen: 
+2018-09-01T23:19:33.357Z - normal: Simulator:     debugger: none
+2018-09-01T23:19:33.357Z - normal: Simulator:     add searching path:
+2018-09-01T23:19:33.357Z - normal: Simulator: 
+2018-09-01T23:19:33.358Z - normal: Simulator: 
+2018-09-01T23:19:33.358Z - normal: Simulator: 
+2018-09-01T23:19:33.359Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:19:33.359Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:19:33.359Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-09-01T23:19:33.359Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:19:33.359Z - normal: Simulator: Initializing JavaScriptCore 
+2018-09-01T23:19:33.372Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-09-01T23:19:33.373Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:19:33.374Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:19:33.375Z - normal: Simulator: LOAD Js FILE: main.js
+2018-09-01T23:19:33.376Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:19:33.663Z - normal: Simulator: iShow!
+2018-09-01T23:19:33.902Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-09-01T23:19:33.903Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-09-01T23:19:33.914Z - normal: Simulator: JS: Cocos Creator v2.0.0
+2018-09-01T23:19:34.037Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-09-01T23:19:34.195Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 5.183999999999969ms
+2018-09-01T23:19:34.249Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 22.29599999999982ms
+2018-09-01T23:19:34.314Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 3.3810000000000855ms
+2018-09-01T23:19:34.342Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 10.912000000000035ms
+2018-09-01T23:19:34.379Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.551999999999907ms
+2018-09-01T23:19:34.414Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.34699999999998ms
+2018-09-01T23:19:34.446Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.080000000000155ms
+2018-09-01T23:19:34.476Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.47199999999998ms
+2018-09-01T23:19:34.513Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.658999999999878ms
+2018-09-01T23:19:34.543Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.413999999999987ms
+2018-09-01T23:19:34.580Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.451999999999998ms
+2018-09-01T23:19:34.609Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.356999999999971ms
+2018-09-01T23:19:34.647Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.059999999999945ms
+2018-09-01T23:19:34.676Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.058999999999969ms
+2018-09-01T23:19:34.717Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.126999999999953ms
+2018-09-01T23:19:34.744Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 8.159000000000106ms
+2018-09-01T23:19:34.779Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.523999999999887ms
+2018-09-01T23:19:34.809Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.7650000000001ms
+2018-09-01T23:19:34.847Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.653999999999996ms
+2018-09-01T23:19:34.877Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 10.95699999999988ms
+2018-09-01T23:19:34.913Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.279999999999973ms
+2018-09-01T23:19:34.944Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.622000000000071ms
+2018-09-01T23:19:34.982Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.941000000000031ms
+2018-09-01T23:19:35.009Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.435000000000173ms
+2018-09-01T23:19:35.046Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.6400000000001ms
+2018-09-01T23:19:35.077Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.590999999999894ms
+2018-09-01T23:19:35.114Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.071999999999889ms
+2018-09-01T23:19:35.143Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.690999999999804ms
+2018-09-01T23:19:35.181Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.117999999999938ms
+2018-09-01T23:19:35.211Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.470000000000255ms
+2018-09-01T23:19:35.247Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.088999999999942ms
+2018-09-01T23:19:35.276Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.622000000000298ms
+2018-09-01T23:19:35.313Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.589000000000397ms
+2018-09-01T23:19:35.343Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.183999999999742ms
+2018-09-01T23:19:35.380Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.481999999999971ms
+2018-09-01T23:19:35.411Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.121000000000095ms
+2018-09-01T23:19:35.448Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 10.969000000000051ms
+2018-09-01T23:19:35.476Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.644000000000233ms
+2018-09-01T23:19:35.755Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 168.83899999999994ms
+2018-09-01T23:19:35.860Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 7.066000000000258ms
+2018-09-01T23:19:35.896Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.208000000000084ms
+2018-09-01T23:19:35.930Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.048999999999978ms
+2018-09-01T23:19:35.960Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.705999999999676ms
+2018-09-01T23:19:35.997Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.960999999999785ms
+2018-09-01T23:19:36.027Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.446000000000367ms
+2018-09-01T23:19:36.064Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.166000000000167ms
+2018-09-01T23:19:36.093Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.702999999999975ms
+2018-09-01T23:19:36.131Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.061999999999898ms
+2018-09-01T23:19:36.160Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.815000000000055ms
+2018-09-01T23:19:36.197Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 9.490000000000236ms
+2018-09-01T23:19:36.230Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 16.448999999999614ms
+2018-09-01T23:19:36.265Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.403000000000247ms
+2018-09-01T23:19:36.295Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.528999999999996ms
+2018-09-01T23:19:36.332Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.954999999999927ms
+2018-09-01T23:19:36.361Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.291000000000167ms
+2018-09-01T23:19:36.398Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.963999999999942ms
+2018-09-01T23:19:36.427Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.878999999999905ms
+2018-09-01T23:19:36.465Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.929999999999836ms
+2018-09-01T23:19:36.495Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.973999999999705ms
+2018-09-01T23:19:36.532Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.18899999999985ms
+2018-09-01T23:19:36.561Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.77099999999973ms
+2018-09-01T23:19:36.598Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.111000000000331ms
+2018-09-01T23:19:36.629Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.652000000000044ms
+2018-09-01T23:19:36.666Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.63000000000011ms
+2018-09-01T23:19:36.694Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.095000000000255ms
+2018-09-01T23:19:36.733Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.840000000000146ms
+2018-09-01T23:19:36.762Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.463999999999942ms
+2018-09-01T23:19:36.799Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.22400000000016ms
+2018-09-01T23:19:36.830Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.440000000000055ms
+2018-09-01T23:19:36.866Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.457000000000335ms
+2018-09-01T23:19:36.896Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.682999999999993ms
+2018-09-01T23:19:36.933Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.694999999999709ms
+2018-09-01T23:19:36.961Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.471000000000004ms
+2018-09-01T23:19:36.999Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.100999999999658ms
+2018-09-01T23:19:37.029Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.798999999999978ms
+2018-09-01T23:19:37.066Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.917999999999665ms
+2018-09-01T23:19:37.095Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.722999999999956ms
+2018-09-01T23:19:37.133Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.499000000000251ms
+2018-09-01T23:19:37.161Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.547000000000025ms
+2018-09-01T23:19:37.198Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.08600000000024ms
+2018-09-01T23:19:37.230Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.001000000000204ms
+2018-09-01T23:19:37.264Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.454999999999927ms
+2018-09-01T23:19:37.295Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.324000000000524ms
+2018-09-01T23:19:37.333Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 8.354999999999563ms
+2018-09-01T23:19:37.361Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.942999999999302ms
+2018-09-01T23:19:37.399Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.360999999999876ms
+2018-09-01T23:19:37.429Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.49200000000019ms
+2018-09-01T23:19:37.465Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.14600000000064ms
+2018-09-01T23:19:37.494Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.170000000000073ms
+2018-09-01T23:19:37.531Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.122000000000298ms
+2018-09-01T23:19:37.561Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.412000000000262ms
+2018-09-01T23:19:37.599Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.310999999999694ms
+2018-09-01T23:19:37.628Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.625ms
+2018-09-01T23:19:37.702Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 51.33800000000065ms
+2018-09-01T23:19:37.777Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 32.753999999999905ms
+2018-09-01T23:19:37.811Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.451000000000022ms
+2018-09-01T23:19:37.850Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.656999999999243ms
+2018-09-01T23:19:37.879Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.652000000000044ms
+2018-09-01T23:19:37.917Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.175000000000182ms
+2018-09-01T23:19:37.946Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.15899999999965ms
+2018-09-01T23:19:37.983Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.807000000000698ms
+2018-09-01T23:19:38.012Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.061000000000604ms
+2018-09-01T23:19:38.049Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.847999999999956ms
+2018-09-01T23:19:38.079Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.376000000000204ms
+2018-09-01T23:19:38.116Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.649999999999636ms
+2018-09-01T23:19:38.145Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.80200000000059ms
+2018-09-01T23:19:38.182Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.472999999999956ms
+2018-09-01T23:19:38.213Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.769000000000233ms
+2018-09-01T23:19:38.249Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.086999999999534ms
+2018-09-01T23:19:38.279Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.05199999999968ms
+2018-09-01T23:19:38.316Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.88300000000072ms
+2018-09-01T23:19:38.346Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.719000000000051ms
+2018-09-01T23:19:38.383Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.041000000000167ms
+2018-09-01T23:19:38.412Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.50799999999981ms
+2018-09-01T23:19:38.450Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.708999999999833ms
+2018-09-01T23:19:38.479Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.872000000000298ms
+2018-09-01T23:19:38.515Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.635999999999513ms
+2018-09-01T23:19:38.546Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.957999999999629ms
+2018-09-01T23:19:38.583Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.34900000000016ms
+2018-09-01T23:19:38.612Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.905000000000655ms
+2018-09-01T23:19:38.650Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.419999999999163ms
+2018-09-01T23:19:38.679Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.050999999999476ms
+2018-09-01T23:19:38.718Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.75500000000011ms
+2018-09-01T23:19:38.745Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.21100000000024ms
+2018-09-01T23:19:38.783Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.628999999999905ms
+2018-09-01T23:19:38.813Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.588000000000648ms
+2018-09-01T23:19:38.850Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.951000000000022ms
+2018-09-01T23:19:38.879Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.057999999999993ms
+2018-09-01T23:19:38.917Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 16.256000000000313ms
+2018-09-01T23:19:38.946Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.13799999999992ms
+2018-09-01T23:19:38.983Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.807999999999993ms
+2018-09-01T23:19:39.013Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.63300000000072ms
+2018-09-01T23:19:39.050Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.045000000000073ms
+2018-09-01T23:19:39.080Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 4.98700000000008ms
+2018-09-01T23:19:39.116Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.95299999999952ms
+2018-09-01T23:19:39.146Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.29699999999957ms
+2018-09-01T23:19:39.196Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 29.140000000000327ms
+2018-09-01T23:19:39.230Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.960000000000036ms
+2018-09-01T23:19:39.267Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.230999999999767ms
+2018-09-01T23:19:39.296Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.110999999999876ms
+2018-09-01T23:19:39.333Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.027000000000044ms
+2018-09-01T23:19:39.373Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 23.51000000000022ms
+2018-09-01T23:19:39.400Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.340000000000146ms
+2018-09-01T23:19:39.429Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.728000000000065ms
+2018-09-01T23:19:39.467Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.19000000000051ms
+2018-09-01T23:19:39.496Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.197000000000116ms
+2018-09-01T23:19:39.534Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.49199999999928ms
+2018-09-01T23:19:39.563Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.411000000000058ms
+2018-09-01T23:19:39.600Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.291000000000167ms
+2018-09-01T23:19:39.630Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.610999999999876ms
+2018-09-01T23:19:39.666Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.944000000000415ms
+2018-09-01T23:19:39.696Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.02099999999973ms
+2018-09-01T23:19:39.734Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.627999999999702ms
+2018-09-01T23:19:39.764Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.782000000000153ms
+2018-09-01T23:19:39.801Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.752999999999702ms
+2018-09-01T23:19:39.830Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.514000000000124ms
+2018-09-01T23:19:39.867Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.923999999999978ms
+2018-09-01T23:19:39.897Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.846000000000458ms
+2018-09-01T23:19:39.934Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.39599999999973ms
+2018-09-01T23:19:39.963Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.4350000000004ms
+2018-09-01T23:19:40.001Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.49499999999989ms
+2018-09-01T23:19:40.032Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.510000000000218ms
+2018-09-01T23:19:40.067Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.42699999999968ms
+2018-09-01T23:19:40.099Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.818000000000211ms
+2018-09-01T23:19:40.134Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.603000000000065ms
+2018-09-01T23:19:40.166Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.905999999999949ms
+2018-09-01T23:19:40.201Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.323999999999614ms
+2018-09-01T23:19:40.231Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.100000000000364ms
+2018-09-01T23:19:40.267Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.436999999999898ms
+2018-09-01T23:19:40.297Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.181000000000495ms
+2018-09-01T23:19:40.333Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.902999999999338ms
+2018-09-01T23:19:40.365Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.498000000000502ms
+2018-09-01T23:19:40.401Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.341999999999643ms
+2018-09-01T23:19:40.432Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.690999999999804ms
+2018-09-01T23:19:40.469Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.990999999999985ms
+2018-09-01T23:19:40.499Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.99499999999989ms
+2018-09-01T23:19:40.850Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 197.8209999999999ms
+2018-09-01T23:19:40.896Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 28.27099999999973ms
+2018-09-01T23:19:40.921Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 11.496000000000095ms
+2018-09-01T23:19:40.949Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.784999999999854ms
+2018-09-01T23:19:40.982Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.886999999999716ms
+2018-09-01T23:19:41.064Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.739000000000487ms
+2018-09-01T23:19:41.098Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.975000000000364ms
+2018-09-01T23:19:41.131Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.90099999999984ms
+2018-09-01T23:19:41.165Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.59100000000035ms
+2018-09-01T23:19:41.198Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.640000000000327ms
+2018-09-01T23:19:41.233Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.024000000000342ms
+2018-09-01T23:19:41.299Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.56800000000112ms
+2018-09-01T23:19:41.331Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.179000000000087ms
+2018-09-01T23:19:41.368Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.173000000000684ms
+2018-09-01T23:19:41.399Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.904999999998836ms
+2018-09-01T23:19:41.431Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.930999999998676ms
+2018-09-01T23:19:41.465Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.787000000000262ms
+2018-09-01T23:19:41.498Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.46900000000096ms
+2018-09-01T23:19:41.532Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.472999999999956ms
+2018-09-01T23:19:41.565Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.61199999999917ms
+2018-09-01T23:19:41.599Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.662000000000262ms
+2018-09-01T23:19:41.631Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.949000000000524ms
+2018-09-01T23:19:41.666Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 15.522000000000844ms
+2018-09-01T23:19:41.697Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.519999999998618ms
+2018-09-01T23:19:41.734Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 16.483000000000175ms
+2018-09-01T23:19:41.764Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.699999999998909ms
+2018-09-01T23:19:41.798Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.924000000000888ms
+2018-09-01T23:19:41.831Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.647999999999229ms
+2018-09-01T23:19:41.865Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.759000000000015ms
+2018-09-01T23:19:41.898Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.17699999999968ms
+2018-09-01T23:19:41.931Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.712999999999738ms
+2018-09-01T23:19:41.964Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 12.790000000000873ms
+2018-09-01T23:19:41.998Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.115999999999985ms
+2018-09-01T23:19:42.031Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.498999999999796ms
+2018-09-01T23:19:42.064Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.036000000000058ms
+2018-09-01T23:19:42.098Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 14.046000000000276ms
+2018-09-01T23:19:42.133Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.885000000000218ms
+2018-09-01T23:19:42.165Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.722999999999956ms
+2018-09-01T23:19:42.198Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 13.415000000000873ms
+2018-09-01T23:19:42.234Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 16.090000000000146ms
+2018-09-01T23:19:42.440Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-09-01T23:19:42.440Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 63
+2018-09-01T23:19:42.454Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:19:42.454Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:19:42.468Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:19:42.468Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:19:42.476Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:19:42.494Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2018-09-01T23:19:42.494Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2018-09-01T23:19:42.495Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2018-09-01T23:19:42.495Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2018-09-01T23:19:42.495Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2018-09-01T23:19:42.495Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2018-09-01T23:19:42.496Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2018-09-01T23:19:42.496Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2018-09-01T23:19:42.496Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2018-09-01T23:19:42.497Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2018-09-01T23:19:42.497Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2018-09-01T23:19:42.497Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2018-09-01T23:19:42.497Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2018-09-01T23:19:42.498Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2018-09-01T23:19:42.507Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-09-01T23:20:26.007Z - normal: Simulator: WORKAREA WIDTH 2495.00, HEIGHT 1396.00
+2018-09-01T23:20:26.008Z - normal: Simulator: FRAME SCALE = 1.00
+2018-09-01T23:20:26.174Z - normal: Simulator: 
+2018-09-01T23:20:26.175Z - normal: Simulator: {
+2018-09-01T23:20:26.175Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-09-01T23:20:26.175Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-09-01T23:20:26.175Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 660M OpenGL Engine
+2018-09-01T23:20:26.175Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-09-01T23:20:26.175Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-09-01T23:20:26.176Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-09-01T23:20:26.176Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-09-01T23:20:26.177Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.32.0 355.11.10.10.40.102
+2018-09-01T23:20:26.177Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-09-01T23:20:26.177Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-09-01T23:20:26.177Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-09-01T23:20:26.177Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-09-01T23:20:26.178Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-09-01T23:20:26.178Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-09-01T23:20:26.178Z - normal: Simulator: }
+2018-09-01T23:20:26.178Z - normal: Simulator: 
+2018-09-01T23:20:26.178Z - normal: Simulator: 
+2018-09-01T23:20:26.178Z - normal: Simulator: Project Config:
+2018-09-01T23:20:26.178Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-09-01T23:20:26.179Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-09-01T23:20:26.179Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-09-01T23:20:26.179Z - normal: Simulator:     frame size: 960 x 640
+2018-09-01T23:20:26.179Z - normal: Simulator:     frame scale: 1.00
+2018-09-01T23:20:26.179Z - normal: Simulator:     show console: NO
+2018-09-01T23:20:26.179Z - normal: Simulator:     write debug log: NO ()
+2018-09-01T23:20:26.180Z - normal: Simulator:     listen: 
+2018-09-01T23:20:26.180Z - normal: Simulator:     debugger: none
+2018-09-01T23:20:26.181Z - normal: Simulator:     add searching path:
+2018-09-01T23:20:26.181Z - normal: Simulator: 
+2018-09-01T23:20:26.181Z - normal: Simulator: 
+2018-09-01T23:20:26.181Z - normal: Simulator: 
+2018-09-01T23:20:26.181Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:20:26.181Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:20:26.182Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-09-01T23:20:26.182Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:20:26.182Z - normal: Simulator: Initializing JavaScriptCore 
+2018-09-01T23:20:26.215Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-09-01T23:20:26.216Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:20:26.217Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:20:26.217Z - normal: Simulator: LOAD Js FILE: main.js
+2018-09-01T23:20:26.217Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:20:26.609Z - normal: Simulator: iShow!
+2018-09-01T23:20:26.928Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-09-01T23:20:26.932Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-09-01T23:20:26.950Z - normal: Simulator: JS: Cocos Creator v2.0.0
+2018-09-01T23:20:27.132Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-09-01T23:20:49.221Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-09-01T23:20:49.222Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.238Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.238Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.242Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.242Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.248Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:20:49.257Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2018-09-01T23:20:49.257Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2018-09-01T23:20:49.257Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2018-09-01T23:20:49.258Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2018-09-01T23:20:49.259Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2018-09-01T23:20:49.259Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2018-09-01T23:20:49.259Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2018-09-01T23:20:49.260Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2018-09-01T23:20:49.293Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2018-09-01T23:20:49.294Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2018-09-01T23:20:49.295Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2018-09-01T23:20:49.295Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2018-09-01T23:20:49.295Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2018-09-01T23:20:49.296Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2018-09-01T23:20:49.303Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-09-01T23:22:41.694Z - normal: Simulator: WORKAREA WIDTH 2495.00, HEIGHT 1396.00
+2018-09-01T23:22:41.695Z - normal: Simulator: FRAME SCALE = 1.00
+2018-09-01T23:22:41.909Z - normal: Simulator: 
+2018-09-01T23:22:41.909Z - normal: Simulator: {
+2018-09-01T23:22:41.909Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-09-01T23:22:41.910Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-09-01T23:22:41.910Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 660M OpenGL Engine
+2018-09-01T23:22:41.910Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-09-01T23:22:41.910Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-09-01T23:22:41.910Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-09-01T23:22:41.911Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-09-01T23:22:41.911Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.32.0 355.11.10.10.40.102
+2018-09-01T23:22:41.912Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-09-01T23:22:41.912Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-09-01T23:22:41.912Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-09-01T23:22:41.912Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-09-01T23:22:41.912Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-09-01T23:22:41.912Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-09-01T23:22:41.913Z - normal: Simulator: }
+2018-09-01T23:22:41.913Z - normal: Simulator: 
+2018-09-01T23:22:41.913Z - normal: Simulator: 
+2018-09-01T23:22:41.913Z - normal: Simulator: Project Config:
+2018-09-01T23:22:41.913Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-09-01T23:22:41.913Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-09-01T23:22:41.914Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-09-01T23:22:41.914Z - normal: Simulator:     frame size: 960 x 640
+2018-09-01T23:22:41.914Z - normal: Simulator:     frame scale: 1.00
+2018-09-01T23:22:41.914Z - normal: Simulator:     show console: NO
+2018-09-01T23:22:41.914Z - normal: Simulator:     write debug log: NO ()
+2018-09-01T23:22:41.914Z - normal: Simulator:     listen: 
+2018-09-01T23:22:41.914Z - normal: Simulator:     debugger: none
+2018-09-01T23:22:41.915Z - normal: Simulator:     add searching path:
+2018-09-01T23:22:41.915Z - normal: Simulator: 
+2018-09-01T23:22:41.915Z - normal: Simulator: 
+2018-09-01T23:22:41.915Z - normal: Simulator: 
+2018-09-01T23:22:41.915Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:22:41.916Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:22:41.916Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-09-01T23:22:41.916Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:22:41.916Z - normal: Simulator: Initializing JavaScriptCore 
+2018-09-01T23:22:41.942Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-09-01T23:22:41.942Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:22:41.942Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:22:41.942Z - normal: Simulator: LOAD Js FILE: main.js
+2018-09-01T23:22:41.942Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:22:42.427Z - normal: Simulator: iShow!
+2018-09-01T23:22:42.718Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-09-01T23:22:42.718Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-09-01T23:22:42.730Z - normal: Simulator: JS: Cocos Creator v2.0.0
+2018-09-01T23:22:42.902Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-09-01T23:23:38.622Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-09-01T23:23:38.622Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.630Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.630Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.641Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.642Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.642Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:23:38.650Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2018-09-01T23:23:38.651Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2018-09-01T23:23:38.651Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2018-09-01T23:23:38.651Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2018-09-01T23:23:38.652Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2018-09-01T23:23:38.652Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2018-09-01T23:23:38.653Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2018-09-01T23:23:38.653Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2018-09-01T23:23:38.693Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2018-09-01T23:23:38.693Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2018-09-01T23:23:38.693Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2018-09-01T23:23:38.694Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2018-09-01T23:23:38.694Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2018-09-01T23:23:38.694Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2018-09-01T23:23:38.706Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-09-01T23:28:08.862Z - failed: [db-task][sync-changes] Failed to import asset /Users/voogie/playground/cocos/start_project/assets/scripts/Player.js, message: Compile error: SyntaxError: /Users/voogie/playground/cocos/start_project/assets/scripts/Player.js: Unexpected token, expected , (73:4)
+  71 |     // LIFE-CYCLE CALLBACKS:
+  72 | 
+> 73 |     onLoad() {
+     |     ^
+  74 |         //  init jump action
+  75 |         this.jumpAction = this.setJumpAction();
+  76 |         this.node.runAction(this.jumpAction);
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-09-01T23:32:04.448Z - failed: [db-task][sync-changes] Failed to import asset /Users/voogie/playground/cocos/start_project/assets/scripts/Player.js, message: Compile error: SyntaxError: /Users/voogie/playground/cocos/start_project/assets/scripts/Player.js: Unexpected token, expected , (73:4)
+  71 |     // LIFE-CYCLE CALLBACKS:
+  72 | 
+> 73 |     onLoad() {
+     |     ^
+  74 |         //  init jump action
+  75 |         this.jumpAction = this.setJumpAction();
+  76 |         this.node.runAction(this.jumpAction);
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-09-01T23:34:30.511Z - normal: Simulator: WORKAREA WIDTH 2495.00, HEIGHT 1396.00
+2018-09-01T23:34:30.512Z - normal: Simulator: FRAME SCALE = 1.00
+2018-09-01T23:34:30.761Z - normal: Simulator: 
+2018-09-01T23:34:30.761Z - normal: Simulator: {
+2018-09-01T23:34:30.762Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-09-01T23:34:30.762Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-09-01T23:34:30.762Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 660M OpenGL Engine
+2018-09-01T23:34:30.762Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-09-01T23:34:30.763Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-09-01T23:34:30.763Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-09-01T23:34:30.763Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-09-01T23:34:30.763Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-09-01T23:34:30.763Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-09-01T23:34:30.763Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-09-01T23:34:30.764Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-09-01T23:34:30.764Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-09-01T23:34:30.764Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.32.0 355.11.10.10.40.102
+2018-09-01T23:34:30.764Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-09-01T23:34:30.764Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-09-01T23:34:30.764Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-09-01T23:34:30.765Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-09-01T23:34:30.765Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-09-01T23:34:30.765Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-09-01T23:34:30.765Z - normal: Simulator: }
+2018-09-01T23:34:30.765Z - normal: Simulator: 
+2018-09-01T23:34:30.765Z - normal: Simulator: 
+2018-09-01T23:34:30.765Z - normal: Simulator: Project Config:
+2018-09-01T23:34:30.766Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-09-01T23:34:30.766Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-09-01T23:34:30.766Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-09-01T23:34:30.767Z - normal: Simulator:     frame size: 960 x 640
+2018-09-01T23:34:30.767Z - normal: Simulator:     frame scale: 1.00
+2018-09-01T23:34:30.767Z - normal: Simulator:     show console: NO
+2018-09-01T23:34:30.767Z - normal: Simulator:     write debug log: NO ()
+2018-09-01T23:34:30.767Z - normal: Simulator:     listen: 
+2018-09-01T23:34:30.768Z - normal: Simulator:     debugger: none
+2018-09-01T23:34:30.768Z - normal: Simulator:     add searching path:
+2018-09-01T23:34:30.768Z - normal: Simulator: 
+2018-09-01T23:34:30.768Z - normal: Simulator: 
+2018-09-01T23:34:30.768Z - normal: Simulator: 
+2018-09-01T23:34:30.768Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:34:30.769Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:34:30.769Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-09-01T23:34:30.769Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:34:30.769Z - normal: Simulator: Initializing JavaScriptCore 
+2018-09-01T23:34:30.770Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-09-01T23:34:30.770Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:34:30.770Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:34:30.770Z - normal: Simulator: LOAD Js FILE: main.js
+2018-09-01T23:34:30.770Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:34:31.208Z - normal: Simulator: iShow!
+2018-09-01T23:34:31.503Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-09-01T23:34:31.503Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-09-01T23:34:31.514Z - normal: Simulator: JS: Cocos Creator v2.0.0
+2018-09-01T23:34:31.643Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-09-01T23:34:43.028Z - normal: Simulator: I/AudioEngine-inl.mm (360): OpenAL was initialized successfully!
+2018-09-01T23:34:43.030Z - normal: Simulator: V/AudioCache (312): pcm buffer was loaded successfully, total frames: 25384, total read frames: 25384, adjust frames: 0, remainingFrames: 0
+2018-09-01T23:34:43.031Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-09-01T23:34:43.032Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.045Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.046Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.060Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.060Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.060Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:34:43.073Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2018-09-01T23:34:43.074Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2018-09-01T23:34:43.075Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2018-09-01T23:34:43.075Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2018-09-01T23:34:43.075Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2018-09-01T23:34:43.075Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2018-09-01T23:34:43.076Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2018-09-01T23:34:43.112Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2018-09-01T23:34:43.113Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2018-09-01T23:34:43.113Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2018-09-01T23:34:43.113Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2018-09-01T23:34:43.113Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2018-09-01T23:34:43.113Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2018-09-01T23:34:43.114Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2018-09-01T23:34:43.120Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-09-01T23:35:45.018Z - normal: Simulator: WORKAREA WIDTH 2495.00, HEIGHT 1396.00
+2018-09-01T23:35:45.019Z - normal: Simulator: FRAME SCALE = 1.00
+2018-09-01T23:35:45.150Z - normal: Simulator: 
+2018-09-01T23:35:45.150Z - normal: Simulator: {
+2018-09-01T23:35:45.150Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.renderer: NVIDIA GeForce GTX 660M OpenGL Engine
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-09-01T23:35:45.151Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-09-01T23:35:45.152Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-09-01T23:35:45.152Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-09-01T23:35:45.152Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-09-01T23:35:45.153Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-09-01T23:35:45.153Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-09-01T23:35:45.153Z - normal: Simulator: 	gl.version: 2.1 NVIDIA-10.32.0 355.11.10.10.40.102
+2018-09-01T23:35:45.153Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-09-01T23:35:45.153Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-09-01T23:35:45.153Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-09-01T23:35:45.154Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-09-01T23:35:45.154Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-09-01T23:35:45.154Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-09-01T23:35:45.154Z - normal: Simulator: }
+2018-09-01T23:35:45.154Z - normal: Simulator: 
+2018-09-01T23:35:45.154Z - normal: Simulator: 
+2018-09-01T23:35:45.154Z - normal: Simulator: Project Config:
+2018-09-01T23:35:45.155Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-09-01T23:35:45.155Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-09-01T23:35:45.155Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-09-01T23:35:45.155Z - normal: Simulator:     frame size: 960 x 640
+2018-09-01T23:35:45.155Z - normal: Simulator:     frame scale: 1.00
+2018-09-01T23:35:45.155Z - normal: Simulator:     show console: NO
+2018-09-01T23:35:45.155Z - normal: Simulator:     write debug log: NO ()
+2018-09-01T23:35:45.156Z - normal: Simulator:     listen: 
+2018-09-01T23:35:45.156Z - normal: Simulator:     debugger: none
+2018-09-01T23:35:45.156Z - normal: Simulator:     add searching path:
+2018-09-01T23:35:45.156Z - normal: Simulator: 
+2018-09-01T23:35:45.156Z - normal: Simulator: 
+2018-09-01T23:35:45.157Z - normal: Simulator: 
+2018-09-01T23:35:45.157Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:35:45.157Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:35:45.157Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-09-01T23:35:45.158Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:35:45.158Z - normal: Simulator: Initializing JavaScriptCore 
+2018-09-01T23:35:45.175Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-09-01T23:35:45.177Z - normal: Simulator: resetDesignResolution request
+2018-09-01T23:35:45.177Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:35:45.177Z - normal: Simulator: LOAD Js FILE: main.js
+2018-09-01T23:35:45.177Z - normal: Simulator: ------------------------------------------------
+2018-09-01T23:35:45.574Z - normal: Simulator: iShow!
+2018-09-01T23:35:45.836Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-09-01T23:35:45.837Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-09-01T23:35:45.847Z - normal: Simulator: JS: Cocos Creator v2.0.0
+2018-09-01T23:35:45.961Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-09-01T23:36:06.946Z - normal: Simulator: I/AudioEngine-inl.mm (360): OpenAL was initialized successfully!
+2018-09-01T23:36:06.946Z - normal: Simulator: V/AudioCache (312): pcm buffer was loaded successfully, total frames: 8117, total read frames: 8117, adjust frames: 0, remainingFrames: 0
+2018-09-01T23:36:06.947Z - normal: Simulator: V/AudioCache (312): pcm buffer was loaded successfully, total frames: 25384, total read frames: 25384, adjust frames: 0, remainingFrames: 0
+2018-09-01T23:36:06.947Z - normal: Simulator: JS: LoadScene d3bc8636-edb6-46de-b271-ac135e18f22f: 16.690999999998894ms
+2018-09-01T23:36:15.047Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-09-01T23:36:15.048Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.055Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.055Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.065Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.066Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.073Z - normal: Simulator: GC end ..., (Native -> JS map) count: 19
+2018-09-01T23:36:15.080Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2018-09-01T23:36:15.080Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2018-09-01T23:36:15.080Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2018-09-01T23:36:15.080Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2018-09-01T23:36:15.081Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2018-09-01T23:36:15.081Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2018-09-01T23:36:15.081Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2018-09-01T23:36:15.082Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2018-09-01T23:36:15.107Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2018-09-01T23:36:15.107Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2018-09-01T23:36:15.108Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2018-09-01T23:36:15.108Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2018-09-01T23:36:15.108Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2018-09-01T23:36:15.108Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2018-09-01T23:36:15.115Z - normal: Simulator: ScriptEngine::cleanup end ...
